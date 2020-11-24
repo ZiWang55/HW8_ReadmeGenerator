@@ -70,9 +70,10 @@ function promptUser(){
         try {
             // Asking questions and get responses
             const answers = await promptUser();
-            const generateAnswers = generateReadme(answers);
+            const generateContent = generateReadme(answers);
             // Write new Readme.md to dist
-            await writeFileAsync('./dist/README.md');
+            await writeFileAsync('./dist/README.md', generateContent);
+            console.log('Sucessfully wrote to README.md');
         } catch(err) {
             console.log(err);
         }
