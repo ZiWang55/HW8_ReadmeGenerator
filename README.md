@@ -70,3 +70,9 @@ THEN I am taken to the corresponding section of the README
   
 `npm install inquirer`
 
+## Usage
+💻   
+  
+Run the following command at th root of your project and answer the prompted questions:
+  
+`node index.js`
