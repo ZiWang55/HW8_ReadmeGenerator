@@ -76,3 +76,9 @@ THEN I am taken to the corresponding section of the README
 Run the following command at th root of your project and answer the prompted questions:
   
 `node index.js`
+
+## Contributing
+[Zi Wang](https://github.com/ZiWang55)
+
+## Questions
+✉️ Contact me with any questions: [email](mailto:ziwang55@gmail.com) , [GitHub](https://github.com/ZiWang55)<br />
