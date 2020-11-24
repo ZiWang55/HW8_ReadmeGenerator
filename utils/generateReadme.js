@@ -16,7 +16,21 @@ function generateReadme(answers) {
   -[Contributing](#contributing)
   -[Questions](#questions)
 
-  
+  ## Installation
+  💾 ${answers.installation}
+
+  ## Usage
+  🖥 ${answers.usage}
+
+  ## License
+  ![badge](https://img.sheilds.io/badge/license-${answers.license}-brightgreen)
+  <br />
+  This aplication is covered by the ${answers.license} license.
+
+  ## Contributing
+  👨‍👧‍👦 ${answers.contributing}
+
+  ##
 
 `;
 }
