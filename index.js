@@ -22,7 +22,7 @@ function promptUser(){
             type: "input",
             name: "installation",
             message: "Describe the installation process: ",
-        }
+        },
         {
             type: "input",
             name: "usage",
@@ -66,4 +66,16 @@ function promptUser(){
 }
 
 // Async function with util.promisify
-    
+    async function init() {
+        try {
+            // Asking questions and get responses
+            const answers = await promptUser();
+            const generateAnswers = generateReadme(answers);
+            // Write new Readme.md to dist
+            await writeFileAsync('./dist/README.md');
+        } catch(err) {
+            console.log(err);
+        }
+    }
+
+    init();
