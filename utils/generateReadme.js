@@ -1,20 +1,20 @@
 // function to generate markdown for README
 function generateReadme(answers) {
   return `
-  <h1 align="center">${answers.ProjectTitle} 👋</h1>
+  <h1 align="center">${answers.projectTitle} 👋</h1>
 
-  ![badge](https://img.sheilds.io/badge/license-${answers.license}-brightgreen)<br />
+  ![badge](https://img.shields.io/badge/license-${answers.license}-brightgreen)<br />
 
   ## Description
   🔎 ${answers.description}
 
   ## Table of Content
-  -[Description](#description)
-  -[Installation](#installation)
-  -[Usage](#usage)
-  -[License](#license)
-  -[Contributing](#contributing)
-  -[Questions](#questions)
+  - [Description](#description)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License](#license)
+  - [Contributing](#contributing)
+  - [Questions](#questions)
 
   ## Installation
   💾 ${answers.installation}
@@ -23,7 +23,7 @@ function generateReadme(answers) {
   🖥 ${answers.usage}
 
   ## License
-  ![badge](https://img.sheilds.io/badge/license-${answers.license}-brightgreen)
+  ![badge](https://img.shields.io/badge/license-${answers.license}-brightgreen)
   <br />
   This aplication is covered by the ${answers.license} license.
 
