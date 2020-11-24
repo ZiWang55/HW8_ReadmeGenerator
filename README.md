@@ -3,10 +3,10 @@
    
   
 <p align="center">
-    <img src="https://img.shields.io/github/repo-size/ZiWang55/README-generator" />
-    <img src="https://img.shields.io/github/languages/top/ZiWang55/README-generator"  />
-    <img src="https://img.shields.io/github/issues/ZiWang55/README-generator" />
-    <img src="https://img.shields.io/github/last-commit/ZiWang55/README-generator" >
+    <img src="https://img.shields.io/github/repo-size/ZiWang55/HW8_ReadmeGenerator" />
+    <img src="https://img.shields.io/github/languages/top/ZiWang55/HW8_ReadmeGenerator"  />
+    <img src="https://img.shields.io/github/issues/ZiWang55/HW8_ReadmeGenerator" />
+    <img src="https://img.shields.io/github/last-commit/ZiWang55/HW8_ReadmeGenerator" >
 </p>
   
 <p align="center">
