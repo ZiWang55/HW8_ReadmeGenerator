@@ -42,5 +42,28 @@ function promptUser(){
                 "Open"
             ]
         },
-    ])
+        {
+            type: "input",
+            name: "contributing",
+            message: "Who are the contributors of this project?",
+        },
+        {
+            type: "input",
+            name: "issues",
+            message: "What do I do if there is an issue? "
+        },
+        {
+            type: "input",
+            name: "gitusername",
+            message: "Your Github username: ",
+        },
+        {
+            type: "input",
+            name: "email",
+            message: "Please enter your email: "
+        }
+    ]);
 }
+
+// Async function with util.promisify
+    
