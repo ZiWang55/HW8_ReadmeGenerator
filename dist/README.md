@@ -1,27 +1,27 @@
 
-  <h1 align="center">undefined 👋</h1>
+  <h1 align="center">Readme Generator 👋</h1>
 
-  ![badge](https://img.sheilds.io/badge/license-MIT-brightgreen)<br />
+  ![badge](https://img.shields.io/badge/license-MIT-brightgreen)<br />
 
   ## Description
-  🔎 Using Node.js to generate a REAME.md file to the dist folder
+  🔎 Using Node.js to make a Readme Generator
 
   ## Table of Content
-  -[Description](#description)
-  -[Installation](#installation)
-  -[Usage](#usage)
-  -[License](#license)
-  -[Contributing](#contributing)
-  -[Questions](#questions)
+  - [Description](#description)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License](#license)
+  - [Contributing](#contributing)
+  - [Questions](#questions)
 
   ## Installation
-  💾 npm installed inquirer
+  💾 npm install inquirer
 
   ## Usage
   🖥 U of M bootcamp HW
 
   ## License
-  ![badge](https://img.sheilds.io/badge/license-MIT-brightgreen)
+  ![badge](https://img.shields.io/badge/license-MIT-brightgreen)
   <br />
   This aplication is covered by the MIT license.
 
